@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">ThingList Beta</string>
+    <string name="label_name">Name</string>
+    <string name="label_email">Email address</string>
+    <string name="label_password">Password</string>
+    <string name="label_confirm_password">Confirm Password</string>
+    <string name="action_sign_up">Sign Up</string>
+    <string name="label_or">or</string>
+    <string name="continue_with_apple">Continue with Apple</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="have_account_sign_in">Have an account? Sign In</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_service">Terms of Service</string>
+
+
+    <string name="signin_with_apple">Sign in with Apple</string>
+    <string name="signin_with_google">Sign in with Google</string>
+    <string name="label_or_divider">-----------------   or   -----------------</string>
+    <string name="label_remember_me">Remember Me</string>
+    <string name="action_forgot_password">Forgot Password</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="dont_have_account_sign_up">Don’t have an account? Sign Up</string>
+
+    <string name="dashboard_title">Dashboard</string>
+    <string name="label_number_of_items">Number of items:</string>
+    <string name="label_monetary_value">Monetary Value:</string>
+    <string name="label_sort_by">Sort By</string>
+    <string name="label_filter">Filter</string>
+    <string name="label_product_inventory">Product Inventory</string>
+
+    <string name="dashboard">Dashboard</string>
+    <string name="add_item">Add Item</string>
+    <string name="vault">Vault</string>
+    <string name="profile">Profile</string>
+
+</resources>

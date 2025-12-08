@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_method_option"
+    android:padding="16dp"
+    android:layout_marginBottom="12dp">
+
+    <ImageView
+        android:id="@+id/imgMethodIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_method_icon_gray"
+        android:padding="8dp"
+        android:contentDescription="Method Icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <LinearLayout
+        android:id="@+id/methodTextContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="12dp"
+        app:layout_constraintStart_toEndOf="@id/imgMethodIcon"
+        app:layout_constraintEnd_toStartOf="@id/imgChevron"
+        app:layout_constraintTop_toTopOf="@id/imgMethodIcon"
+        app:layout_constraintBottom_toBottomOf="@id/imgMethodIcon">
+
+        <TextView
+            android:id="@+id/tvMethodTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Method"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#111827"/>
+
+        <TextView
+            android:id="@+id/tvMethodSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Subtitle"
+            android:textSize="13sp"
+            android:textColor="#6B7280"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgChevron"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:src="@drawable/outline_chevron_forward_24"
+        android:contentDescription="Go"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
