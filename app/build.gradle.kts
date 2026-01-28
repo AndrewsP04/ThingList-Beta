@@ -3,14 +3,14 @@ plugins {
 }
 
 android {
-    namespace = "com.example.thinglistbeta"
+    namespace = "com.example.thinglist"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.example.thinglistbeta"
-        minSdk = 31
+        applicationId = "com.example.thinglist"
+        minSdk = 33
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"

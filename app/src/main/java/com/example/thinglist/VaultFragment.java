@@ -1,4 +1,4 @@
-package com.example.thinglistbeta;   // <-- change if your package is different
+package com.example.thinglist;   // <-- change if your package is different
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

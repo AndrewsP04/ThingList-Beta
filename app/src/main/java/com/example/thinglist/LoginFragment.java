@@ -1,4 +1,4 @@
-package com.example.thinglistbeta;
+package com.example.thinglist;
 
 import android.os.Bundle;
 import android.text.TextUtils;

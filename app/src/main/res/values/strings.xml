@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ThingList Beta</string>
+    <string name="app_name">ThingList</string>
     <string name="label_name">Name</string>
     <string name="label_email">Email address</string>
     <string name="label_password">Password</string>

@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ThingList Beta"
+rootProject.name = "ThingList"
 include(":app")
  
